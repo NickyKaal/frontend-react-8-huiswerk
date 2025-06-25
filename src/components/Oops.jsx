@@ -1,4 +1,5 @@
 import React from 'react';
+import './Oops.css';
 import {SmileyXEyes} from "@phosphor-icons/react";
 
 function Oops({msg}) {
