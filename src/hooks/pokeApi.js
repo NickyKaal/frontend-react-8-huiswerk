@@ -23,6 +23,8 @@ export function useFetchPokemonIndexPage() {
 
     async function loadPageIndex(controller){
         try{
+            setPokemonIndexPage({});
+            setError("");
             toggleLoaded(false);
             toggleFailed(false);
 
