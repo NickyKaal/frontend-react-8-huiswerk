@@ -1,10 +1,11 @@
 import './App.css'
+import MainBrowser from "./pages/MainBrowser.jsx";
 
 function App() {
 
   return (
     <>
-      <h1>Gotta catch em all!</h1>
+      <MainBrowser/>
     </>
   )
 }
