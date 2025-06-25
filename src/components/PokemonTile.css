@@ -1,0 +1,28 @@
+.pokemon-tile{
+    color:black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width:150px;
+    height: 430px;
+
+    overflow: clip;
+    text-wrap: nowrap;
+}
+
+.pokemon-details{
+    font-weight: bold;
+}
+.pokemon-details span{
+    font-weight: normal;
+}
+
+.pokemon-ability {
+    width:80%;
+    text-align: center;
+    vertical-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 2px 0;
+}
